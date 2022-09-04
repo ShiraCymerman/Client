@@ -1,6 +1,6 @@
 export class CorrectAnswerDTO
 {
-    idCorrectAnswer:number
-    idQuestion:number
-    idAnswer:number
+    idCorrectAnswer:number | undefined
+    idQuestion:number | undefined
+    idAnswer:number | undefined
 }

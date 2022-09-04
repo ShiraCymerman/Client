@@ -1,6 +1,6 @@
 export class SubjectForUser
 {
-    idSubjectForUser:number
-    idUser:string
-    idSubject:number
+    idSubjectForUser:number | undefined
+    idUser:string | undefined
+    idSubject:number | undefined
 }

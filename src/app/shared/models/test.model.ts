@@ -1,5 +1,5 @@
 export class Test
     {
-        idQuestion:number
-        textOfQuestion:string
+        idQuestion:number | undefined
+        textOfQuestion:string | undefined
     }

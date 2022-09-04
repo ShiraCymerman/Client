@@ -1,5 +1,5 @@
 export class Administor
     {
-        idAdmin:number
-        idUser:number
+        idAdmin:number | undefined
+        idUser:number | undefined
             }

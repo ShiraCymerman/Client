@@ -1,8 +1,8 @@
 export class Material
 {
-    idMaterial:number
-    idSubject:number
-    idType:number
-    linkMaterial:string
-    numberOfMaterial:number
+    idMaterial:number | undefined
+    idSubject:number | undefined
+    idType:number | undefined
+    linkMaterial:string | undefined
+    numberOfMaterial:number | undefined
 }

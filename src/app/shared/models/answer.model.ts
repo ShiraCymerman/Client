@@ -1,6 +1,6 @@
 export class Answer
     {
-        idAnswer:number
-        textOfAnswer:string
-        idQuestion:number
+        idAnswer:number | undefined
+        textOfAnswer:string | undefined
+        idQuestion:number | undefined
     }

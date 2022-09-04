@@ -1,10 +1,10 @@
 export class Contact
     {
-        idContact:number
-        idUser:number
-        emailUser:string
-        dateContact:Date
-        idSubject:number
-        textContact:string
-        status:boolean
+        idContact:number | undefined
+        idUser:number | undefined
+        emailUser:string | undefined
+        dateContact:Date | undefined
+        idSubject:number | undefined
+        textContact:string | undefined
+        status:boolean | undefined
     }

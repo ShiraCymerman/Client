@@ -2,10 +2,10 @@ import { Time } from "@angular/common"
 
 export class CheckTest
     {
-        idUserTest:number
-        idQuestion:number
-        idAnswer:number
-        ifCorrectAnswer:boolean
-        howLongAnswer:Time
-        timesChangedAnswer:number
+        idUserTest:number | undefined
+        idQuestion:number | undefined
+        idAnswer:number | undefined
+        ifCorrectAnswer:boolean | undefined
+        howLongAnswer:Time | undefined
+        timesChangedAnswer:number | undefined
     }

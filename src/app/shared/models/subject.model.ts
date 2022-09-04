@@ -1,6 +1,6 @@
 export class Subject
     {
-        idSubject:number
-        nameSubject:string
-        idParentSubject:number
+        idSubject:number | undefined
+        nameSubject:string | undefined
+        idParentSubject:number | undefined
     }

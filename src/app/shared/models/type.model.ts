@@ -1,6 +1,6 @@
 export class Type
     {
-        idType:number
-        nameType:string
-        iconType:string
+        idType:number | undefined
+        nameType:string | undefined
+        iconType:string | undefined
     }

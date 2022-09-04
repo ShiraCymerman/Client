@@ -13,7 +13,7 @@ export class AddUserComponent implements OnInit {
    constructor(private userService:UserService){}
 
    ngOnInit(): void {
-       this.user.firstNameUser=
+       this.user.firstNameUser="shira"
        this.user.lastNameUser="ORELI"
      //  this.addUser()
        this.userService.getNumOfUser().subscribe(

@@ -1,7 +1,7 @@
 export class MaterialForUser
     {
-        idMaterialForUser:number
-        idUser:number
-        idMaterial:number
-        ifFinish:boolean
+        idMaterialForUser:number | undefined
+        idUser:number | undefined
+        idMaterial:number | undefined
+        ifFinish:boolean | undefined
     }

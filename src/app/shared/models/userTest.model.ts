@@ -1,9 +1,9 @@
 export class UserTest
     {
-        idUserTest:number
-        idUser:number
-        idTest:number
-        mark:number
-        testDate:Date
-        totalTime:number
+        idUserTest:number | undefined
+        idUser:number | undefined
+        idTest:number | undefined
+        mark:number | undefined
+        testDate:Date | undefined
+        totalTime:number | undefined
     }
