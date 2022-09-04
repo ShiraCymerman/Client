@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from "@angular/core";
 import { User } from "src/app/shared/models/user.model";
 import { UserService } from "src/app/shared/services/user.service";
+import { Router } from "@angular/router";
 import { SignInComponent } from "../sign-in/sign-in.component";
 
 @Component({
@@ -10,7 +11,8 @@ import { SignInComponent } from "../sign-in/sign-in.component";
 })
 export class AddUserComponent implements OnInit {
    user:User = new User() 
-   constructor(private userService:UserService){}
+   constructor(private userService:UserService,
+    private router:Router){}
 
    ngOnInit(): void {
        this.user.firstNameUser="shira"
@@ -26,5 +28,8 @@ export class AddUserComponent implements OnInit {
         res=>{console.log(res)},
         err=>{console.log(err)}
     )
+   }
+   goRegister(){
+    this.router.navigate(['/signIn'])
    }
 }

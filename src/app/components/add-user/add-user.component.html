@@ -1,4 +1,11 @@
 <h1>add - user - component</h1>
-<input type="text" placeholder="enter your email" name="userName" id="userName" >
+<form>
+<div>
+<input  type="submit" placeholder="enter your email" name="userName" id="userName" >
 <input type="password" placeholder="password" name="password" id="password">
-<button name="newUser">new user</button>
+</div>
+</form>
+    <p>don't have a password?</p>
+    <form name="newUser" (submit)="goRegister()">new user</form>
+    <input type="submit" value="login now">
+
