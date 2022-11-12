@@ -18,7 +18,7 @@ export class AddUserComponent implements OnInit {
        this.user.firstNameUser="shira"
        this.user.lastNameUser="ORELI"
      //  this.addUser()
-       this.userService.getNumOfUser().subscribe(
+       this.userService.addUser(this.user).subscribe(
         res=>console.log(res)
        )
    }
