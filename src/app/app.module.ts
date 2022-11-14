@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -16,7 +18,9 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
