@@ -1,4 +1,7 @@
-ul{
-    display: block;
-    color :white;
+.main menu{
+background-color: aqua;
+}
+a{
+    text-align: center;
+    text-size-adjust: large;
 }
