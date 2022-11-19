@@ -7,6 +7,11 @@ import { AddUserComponent } from './components/add-user/add-user.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './components/home/home.component';
+import { NavComponent } from './components/nav/nav.component';
+import { CoursesComponent } from './components/courses/courses.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { TestsComponent } from './components/tests/tests.component';
 
 
 
@@ -14,7 +19,12 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     AddUserComponent,
-    SignInComponent
+    SignInComponent,
+    HomeComponent,
+    NavComponent,
+    CoursesComponent,
+    ContactComponent,
+    TestsComponent
   ],
   imports: [
     BrowserModule,

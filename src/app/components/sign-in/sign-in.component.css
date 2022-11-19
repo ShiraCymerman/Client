@@ -1,0 +1,12 @@
+input{
+   width: 3cm;
+   height:1cm;
+   display:block
+}
+   
+#conButton
+{
+     background-color:aqua;
+     border-color: gray;
+
+}
