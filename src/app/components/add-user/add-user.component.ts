@@ -15,7 +15,7 @@ export class AddUserComponent implements OnInit {
     private router:Router){}
 
    ngOnInit(): void {
-       this.user.firstNameUser="shira"
+       this.user.emailUser=""
        this.user.lastNameUser="ORELI"
      //  this.addUser()
        this.userService.addUser(this.user).subscribe(

@@ -12,6 +12,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TestsComponent } from './components/tests/tests.component';
+import { UIUXComponent } from './components/courses/ui-ux/ui-ux.component';
 
 
 
@@ -24,7 +25,8 @@ import { TestsComponent } from './components/tests/tests.component';
     NavComponent,
     CoursesComponent,
     ContactComponent,
-    TestsComponent
+    TestsComponent,
+    UIUXComponent
   ],
   imports: [
     BrowserModule,
