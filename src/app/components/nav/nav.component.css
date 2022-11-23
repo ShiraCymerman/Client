@@ -18,10 +18,10 @@ a{
   .button{
     width: 190px;
     float: right;
-    border:1px inset #FF0;
+    border:1px inset rgb(216, 116, 255);
     padding:1px 5px;
-    color:#FF0;
-    background-color:#2166FF;
+    color:rgb(51, 0, 99);
+    background-color:#729ff1;
     font-family:Arial, sans-serif;
     text-align:center;
     text-decoration:none;
@@ -32,10 +32,17 @@ a{
   }
   
   a.button:hover { 
-    color:#66cc33; 
-    border:1px outset #F90; 
+    color:#f5c3ff; 
+    border:1px outset rgb(26, 0, 56); 
   }
-  
   a.button:visited {
     background-color:#09F; 
   }
+
+  
+
+
+
+
+  
+ 

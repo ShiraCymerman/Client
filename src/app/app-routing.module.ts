@@ -8,7 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 
 const routes: Routes = [
-  {path:'',component:AddUserComponent},
+  {path:'',component:HomeComponent},
   {path:'addUser',component:AddUserComponent},
   {path:'signIn',component:SignInComponent},
   {path:'home',component:HomeComponent},
