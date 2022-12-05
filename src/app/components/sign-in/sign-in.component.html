@@ -7,11 +7,11 @@
     <title>add user</title>
 </head>
 <body>
-<form>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
 <div>
-<input  type="text" placeholder="enter your email" name="userName" id="userName" >
-<input type="password" placeholder="password" name="password" id="password">
-<input  type="submit" name="userName" id="userName" >
+<input  formControlName="email" type="text" placeholder="enter your email" name="userName" id="userName" >
+<input formControlName="password" type="password" placeholder="password" name="password" id="password">
+<button type="submit">Send</button>
 </div>
 </form>
     <p>don't have a password?</p>

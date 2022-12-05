@@ -13,7 +13,7 @@ import { CoursesComponent } from './components/courses/courses.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TestsComponent } from './components/tests/tests.component';
 import { UIUXComponent } from './components/courses/ui-ux/ui-ux.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -32,6 +32,7 @@ import { UIUXComponent } from './components/courses/ui-ux/ui-ux.component';
     BrowserModule,
     HttpClientModule,
     RouterModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],
